@@ -192,14 +192,6 @@ const CONFIG = new Config({
             },
           ],
         },
-        {
-          name: 'misc',
-          links: [
-            {
-              name: 'post office',
-              url: 'http://afternoon.dynu.com/letterbox.html',
-              icon: 'mailbox'
-            },
           ]
         }
       ]
