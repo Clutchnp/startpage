@@ -135,8 +135,8 @@ const CONFIG = new Config({
             {
               name: "onedrive",
               url: "https://onedrive.live.com",
-              icon: "box-seam",
-              icon_color: "#7daea3",
+              icon: "brand-onedrive",
+              icon_color: "#ea6962",
             },
           ],
         },
@@ -192,6 +192,22 @@ const CONFIG = new Config({
             },
           ],
         },
+        {
+          name: 'challenges',
+          links: [
+            {
+              name: 'leetcode',
+              url: 'http://https://leetcode.com/',
+              icon: 'brand-leetcode',
+              icon_color: "#7daea3",
+            },
+            {
+              name: 'tryhackme',
+              url: "https://tryhackme.com/dashboard",
+              icon:"code-asterix"
+              icon_color: "#a9b665"
+              
+            }
           ]
         }
       ]
