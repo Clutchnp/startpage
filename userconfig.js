@@ -99,10 +99,10 @@ const CONFIG = new Config({
             icon_color: "#7daea3",
           },
           {
-            name: "Anime"
-            url: "https://animewave.to/home"
-            icon: "brand-funimation"
-            icon_color: "#7daea3"
+            name: "Anime",
+            url: "https://animewave.to/home",
+            icon: "brand-funimation",
+            icon_color: "#7daea3",
           }
         ],
       }],
@@ -204,10 +204,10 @@ const CONFIG = new Config({
             {
               name: 'tryhackme',
               url: "https://tryhackme.com/dashboard",
-              icon:"code-asterix"
-              icon_color: "#a9b665"
+              icon:"code-asterix",
+              icon_color: "#a9b665",
               
-            }
+            },
           ]
         }
       ]
