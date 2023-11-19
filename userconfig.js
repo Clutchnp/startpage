@@ -82,12 +82,6 @@ const CONFIG = new Config({
             icon: "keyboard",
             icon_color: "#e78a4e",
           },
-          {
-            name: "tetris",
-            url: "https://tetris.com/",
-            icon: "brand-apple-arcade",
-            icon_color: "#ea6962",
-          },
         ],
       }, {
         name: "Video",
