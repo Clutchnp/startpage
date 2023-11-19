@@ -98,6 +98,12 @@ const CONFIG = new Config({
             icon: "brand-amazon",
             icon_color: "#7daea3",
           },
+          {
+            name: "Anime"
+            url: "https://animewave.to/home"
+            icon: "brand-funimation"
+            icon_color: "#7daea3"
+          }
         ],
       }],
     },
