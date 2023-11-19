@@ -1,11 +1,6 @@
 class Config {
   defaults = {
     overrideStorage: false,
-    crypto: {
-      currency: 'USD',
-      coin: 'ETH',
-      refreshIn: 15
-    },
     temperature: {
       location: 'New York',
       scale: 'C'
@@ -16,7 +11,7 @@ class Config {
     },
     search: {
       engines: {
-        g: ['https://google.com/search?q=', 'Google'],
+        d: ['https://duckduckgo.com/?q=', 'duckduckgo'],
         y: ['https://youtube.com/results?search_query=', 'Youtube'],
       }
     },

@@ -6,7 +6,7 @@ const CONFIG = new Config({
   },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Kolkata, Asia',
     scale: 'C'
   },
   clock: {
@@ -15,9 +15,9 @@ const CONFIG = new Config({
   },
   search: {
     engines: {
+      d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
       g: ['https://google.com/search?q=', 'Google'],
       i: ['https://ixquick.com/do/search?q=', 'Ixquick'],
-      d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
       w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
     }
@@ -29,140 +29,144 @@ const CONFIG = new Config({
   disabled: [],
   openLastVisitedTab: false,
   tabs: [
+    
     {
-      name: 'boards',
-      background_url: 'src/img/banners/bg-1.gif',
+      name: "chi ll",
+      background_url: "src/img/banners/bg-1.gif",
       categories: [{
-        name: 'fun',
+        name: "Social Media",
         links: [
           {
-            url: 'https://4chan.org/wsg/',
-            name: '/wsg/'
+            name: "whatsapp",
+            url: "https://web.whatsapp.com/",
+            icon: "brand-whatsapp",
+            icon_color: "#a9b665",
           },
           {
-            name: '/out/',
-            url: 'https://4chan.org/out',
-            icon: 'leaf',
-            icon_color: '#64876d'
+            name: "twitter",
+            url: "https://twitter.com/home",
+            icon: "brand-twitter-filled",
+            icon_color: "#7daea3",
           },
           {
-            name: '/lit/',
-            url: 'https://4chan.org/lit/',
-            icon: 'book'
+            name: "reddit",
+            url: "https://www.reddit.com/",
+            icon: "brand-reddit",
+            icon_color: "#e78a4e",
           },
           {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
-            icon: 'device-gamepad',
-            icon_color: '#8b647b'
+            name: "youtube",
+            url: "https://www.youtube.com/",
+            icon: "brand-youtube-filled",
+            icon_color: "#ea6962",
           },
           {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
-            icon: 'camera'
-          }
-        ]
-      },
-      {
-        name: 'Comfy',
+            name: "twitch",
+            url: "https://www.twitch.tv/",
+            icon: "brand-twitch",
+            icon_color: "#d3869b",
+          },
+        ],
+      }, {
+        name: "Games",
         links: [
           {
-            name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
+            name: "chess",
+            url: "https://www.chess.com/home",
+            icon: "chess-queen-filled",
+            icon_color: "#a9b665",
           },
           {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
-          }
-        ]
-      },
-      {
-        name: 'Technology',
+            name: "monkeytype",
+            url: "https://monkeytype.com/",
+            icon: "keyboard",
+            icon_color: "#e78a4e",
+          },
+          {
+            name: "tetris",
+            url: "https://tetris.com/",
+            icon: "brand-apple-arcade",
+            icon_color: "#ea6962",
+          },
+        ],
+      }, {
+        name: "Video",
         links: [
           {
-            name: '/g/',
-            url: 'https://4chan.org/g/',
+            name: "disney+",
+            url: "https://www.disneyplus.com/home",
+            icon: "brand-disney",
+            icon_color: "#7daea3",
           },
           {
-            name: '/Δ/',
-            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html'
+            name: "primevideo",
+            url: "https://www.primevideo.com/region/eu/?ref_=dv_web_unknown",
+            icon: "brand-amazon",
+            icon_color: "#7daea3",
           },
-          {
-            name: '/λ/',
-            url: 'https://www.lainchan.org/%CE%BB/catalog.html'
-          },
-          {
-            name: '/sec/',
-            url: 'https://www.lainchan.org/sec/catalog.html'
-          },
-          {
-            name: '/prog/',
-            url: 'https://boards.420chan.org/prog/',
-            icon: 'code'
-          }
-        ]
-      }
-      ]
+        ],
+      }],
     },
+    
     {
-      name: 'music',
-      background_url: 'src/img/banners/bg-2.gif',
+      name: "myself",
+      background_url: "src/img/banners/bg-2.gif",
       categories: [
         {
-          name: 'music services',
+          name: "mails",
           links: [
             {
-              url: 'https://soundcloud.com/',
-              icon: 'brand-soundcloud',
-              icon_color: '#c57750'
+              name: "gmail",
+              url: "https://mail.google.com/mail/u/0/",
+              icon: "brand-gmail",
+              icon_color: "#ea6962",
             },
-            {
-              url: 'https://youtu.be/',
-              icon: 'brand-youtube',
-              icon_color: '#996767'
-            },
-            {
-              url: 'https://r-a-d.io/',
-              icon: 'radio'
-            },
-          ]
+          ],
         },
         {
-          name: 'music boards',
+          name: "storage",
           links: [
             {
-              name: '/music/',
-              url: 'https://lainchan.org/music/',
-              icon: 'disc'
+              name: "drive",
+              url: "https://drive.google.com/drive/u/0/my-drive",
+              icon: "brand-google-drive",
+              icon_color: "#e78a4e",
             },
             {
-              name: '/mu/',
-              url: 'https://boards.4channel.org/mu/',
-            }
-          ]
-        }
-      ]
+              name: "onedrive",
+              url: "https://onedrive.live.com",
+              icon: "box-seam",
+              icon_color: "#7daea3",
+            },
+          ],
+        },
+        {
+          name: "stuff",
+          links: [
+            {
+              name: "linkedin",
+              url: "https://www.linkedin.com/feed/",
+              icon: "brand-linkedin",
+              icon_color: "#7daea3",
+            },
+          ],
+        },
+      ],
     },
     {
-      name: 'tech',
+      name: 'DEV',
       background_url: 'src/img/banners/bg-3.gif',
       categories: [
         {
           name: 'subreddits',
           links: [
             {
-              name: 'r/startpages/',
-              url: 'https://www.reddit.com/r/startpages/'
+              name: 'r/archlinux/',
+              url: 'https://www.reddit.com/r/archlinux'
             },
             {
               name: 'r/unixporn',
               url: 'https://www.reddit.com/r/unixporn/'
-            },
-            {
-              name: 'r/mechkbds/',
-              url: 'https://www.reddit.com/r/MechanicalKeyboards/',
-              icon: 'keyboard',
-              icon_color: '#a57685'
             },
             {
               name: 'r/programming',
@@ -170,23 +174,23 @@ const CONFIG = new Config({
             }
           ]
         },
+
         {
-          name: 'blogs',
+          name: "repositories",
           links: [
             {
-              name: 'fasterthanli',
-              url: 'https://fasterthanli.me/articles',
-              icon: 'anchor'
+              name: "github",
+              url: "https://github.com/",
+              icon: "brand-github",
+              icon_color: "#7daea3",
             },
             {
-              name: 'dev.to',
-              url: 'https://dev.to'
+              name: "gitlab",
+              url: "https://gitlab.com/",
+              icon: "brand-gitlab",
+              icon_color: "#e78a4e",
             },
-            {
-              name: 'mataroa.blog',
-              url: 'https://collection.mataroa.blog',
-            }
-          ]
+          ],
         },
         {
           name: 'misc',
