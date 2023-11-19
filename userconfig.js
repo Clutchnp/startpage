@@ -15,7 +15,7 @@ const CONFIG = new Config({
   },
   search: {
     engines: {
-      d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
+      d: ['https://duckduckgo.com/?q=', 'DuckDuckGo'],
       g: ['https://google.com/search?q=', 'Google'],
       i: ['https://ixquick.com/do/search?q=', 'Ixquick'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
