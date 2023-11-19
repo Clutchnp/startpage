@@ -194,12 +194,6 @@ const CONFIG = new Config({
               url: 'http://afternoon.dynu.com/letterbox.html',
               icon: 'mailbox'
             },
-            {
-              name: 'rust docs',
-              url: 'https://doc.rust-lang.org/book/',
-              icon: 'notebook',
-              icon_color: '#977a3a'
-            }
           ]
         }
       ]
