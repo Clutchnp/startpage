@@ -100,7 +100,7 @@ const CONFIG = new Config({
           },
           {
             name: "Anime",
-            url: "https://animewave.to/home",
+            url: "https://aniwave.to/home",
             icon: "brand-funimation",
             icon_color: "#7daea3",
           }
