@@ -149,6 +149,13 @@ const CONFIG = new Config({
               icon: "brand-linkedin",
               icon_color: "#7daea3",
             },
+            
+            {
+              name: "BPMS",
+              url: "https://student.allenbpms.in/JAIPUR/dashboard/2023-2024/JAIFD8575F/ARNAV-AGARWAL?token=",
+              icon: "notebook",
+              icon_color: "#7daea3",
+            },
           ],
         },
       ],
