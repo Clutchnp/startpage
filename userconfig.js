@@ -152,7 +152,7 @@ const CONFIG = new Config({
             
             {
               name: "BPMS",
-              url: "https://student.allenbpms.in/JAIPUR/dashboard/2023-2024/JAIFD8575F/ARNAV-AGARWAL?token=",
+              url: "https://student.allenbpms.in",
               icon: "notebook",
               icon_color: "#7daea3",
             },
