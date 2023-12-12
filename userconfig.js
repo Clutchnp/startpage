@@ -100,7 +100,7 @@ const CONFIG = new Config({
           },
           {
             name: "Anime",
-            url: "https://aniwave.to/home",
+            url: "https://yugenanime.tv/",
             icon: "brand-funimation",
             icon_color: "#7daea3",
           }
